@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @import "@opencampus/ochub-ui/dist/theme.css";
 
+/* Enable h-full to work from root */
+html,
+body,
+#root {
+  height: 100%;
+}
+
 /* 3D flip animation utilities */
 .perspective-1000 {
   perspective: 1000px;

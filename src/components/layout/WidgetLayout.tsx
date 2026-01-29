@@ -6,7 +6,7 @@ interface WidgetLayoutProps {
 
 export function WidgetLayout({ children }: WidgetLayoutProps) {
   return (
-    <div className="bg-gray-50 p-2">
+    <div className="h-full w-full">
       {children}
     </div>
   );

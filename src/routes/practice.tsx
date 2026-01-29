@@ -45,7 +45,9 @@ function PracticePage() {
           ))}
         </select>
 
-        <FlashcardWidget deckId={deckId} />
+        <div className='h-72'>
+          <FlashcardWidget deckId={deckId} />
+        </div>
       </div>
     </AppLayout>
   );
